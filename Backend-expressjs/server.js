@@ -15,8 +15,8 @@ app.use(bodyParser.json()); // เพิ่มการใช้ body-parser
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Ronnakrit950R',
-  database: 'todo_app'
+  password: 'password',
+  database: 'database name'
 });
 
 db.connect((err) => {
